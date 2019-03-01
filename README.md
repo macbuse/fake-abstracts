@@ -6,5 +6,15 @@
 1. Feed  to  https://github.com/keras-team/keras/blob/master/examples/lstm_text_generation.py
 
 
+## Issues
+
+I ran this on collab and ran out of memory after 9 epochs with a **Buffered data error**.
+
+https://stackoverflow.com/questions/51463383/buffered-data-was-truncated-after-reaching-the-output-size-limit
+
+Fortunately I save the complete model after each epoch.
+
+
+
 
 
